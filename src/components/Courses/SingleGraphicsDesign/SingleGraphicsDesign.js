@@ -7,10 +7,12 @@ const SingleGraphicDesign = (props) => {
           <Card>
             <Card.Img style={{height:'200px'}} variant="top" src={img} />
             <Card.Body>
+            <h2>Fee:{fee}</h2>
               <Card.Title>{name}</Card.Title>
               <Card.Text>
                {describtion}
               </Card.Text>
+              <button className='btn btn-success'>Enroll Now</button>
             </Card.Body>
           </Card>
         </Col>
