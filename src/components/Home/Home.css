@@ -1,0 +1,37 @@
+.home-header-text{
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px white;
+}
+.home-header-sub-text{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(226, 86, 43);
+    font-weight: 500;
+    text-shadow: 1px 1px 5px white;
+}
+.home-container{
+    background: url(../../images/mainPart-bg.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 100%;
+}
+.home-course{
+    margin: 0 5%;
+    text-align: center;
+    background-color: MediumSlateBlue;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    margin-top: 10px;
+}
+.home-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}

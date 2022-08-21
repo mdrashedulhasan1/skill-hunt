@@ -1,0 +1,10 @@
+.footer-container{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 50px; */
+    padding: 100px 0;
+}
+.footer-header{
+    border-bottom: 2px solid greenyellow;
+}
